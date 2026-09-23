@@ -1,0 +1,28 @@
+version: "3.1"
+intents:
+  - greet
+  - goodbye
+  - ask_symptoms
+  - ask_prevention
+  - ask_vaccine_schedule
+  - ask_outbreak_status
+  - ask_location
+  - affirmation
+  - deny
+  - fallback
+
+entities:
+  - disease
+  - age_months
+  - district
+  - state
+responses:
+  utter_greet:
+  - text: "Vanakkam! I can help with symptoms, prevention, vaccines & local alerts."
+  utter_fallback:
+  - text: "Sorry, I didn't understand. Can you say it differently? If you want, type 'help'."
+actions:
+  - action_symptoms
+  - action_prevention
+  - action_vaccine_schedule
+  - action_outbreak_status

@@ -1,0 +1,14 @@
+{
+  "dengue": {
+    "symptoms": ["High fever", "Severe headache", "Pain behind eyes", "Joint/muscle pain", "Rash"],
+    "prevention": ["Avoid mosquito bites", "Use repellents", "Wear long sleeves", "Remove stagnant water"]
+  },
+  "malaria": {
+    "symptoms": ["Fever with chills", "Sweats", "Headache"],
+    "prevention": ["Use mosquito nets", "Indoor spraying", "Apply repellents"]
+  },
+  "covid": {
+    "symptoms": ["Fever", "Cough", "Loss of smell", "Difficulty breathing"],
+    "prevention": ["Mask in crowds", "Hand hygiene", "Vaccination"]
+  }
+}

@@ -1,0 +1,5 @@
+text,intent,entity_disease,age_months,district
+"dengue symptoms",ask_symptoms,dengue,,
+"how to prevent malaria",ask_prevention,malaria,,
+"what vaccines at 6 months",ask_vaccine_schedule,,6,
+"is there dengue in coimbatore",ask_outbreak_status,,,Coimbatore

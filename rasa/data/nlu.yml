@@ -1,0 +1,32 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - vanakkam
+    - hi tata
+- intent: ask_symptoms
+  examples: |
+    - what are the symptoms of dengue
+    - dengue symptoms
+    - how do I know it's malaria
+    - baby has fever what to check
+    - my head hurts and fever - could it be dengue
+- intent: ask_prevention
+  examples: |
+    - how can I prevent dengue
+    - prevent malaria
+    - how to stop mosquitoes breeding
+- intent: ask_vaccine_schedule
+  examples: |
+    - vaccine schedule for 6 months baby
+    - which vaccines at 9 months
+    - when to vaccinate a newborn
+- intent: ask_outbreak_status
+  examples: |
+    - dengue cases in Coimbatore
+    - any outbreak in Tamil Nadu
+- intent: fallback
+  examples: |
+    - asdfasdf

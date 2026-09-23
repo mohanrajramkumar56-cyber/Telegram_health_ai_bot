@@ -1,0 +1,14 @@
+version: "3.1"
+stories:
+- story: symptoms path
+  steps:
+    - intent: ask_symptoms
+    - action: action_symptoms
+- story: vaccine path
+  steps:
+    - intent: ask_vaccine_schedule
+    - action: action_vaccine_schedule
+- story: outbreak path
+  steps:
+    - intent: ask_outbreak_status
+    - action: action_outbreak_status

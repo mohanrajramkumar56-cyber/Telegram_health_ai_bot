@@ -1,0 +1,15 @@
+language: "en"
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: RegexFeaturizer
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: DIETClassifier
+    epochs: 80
+  - name: ResponseSelector
+    epochs: 80
+policies:
+  - name: RulePolicy
+  - name: MemoizationPolicy
+  - name: TEDPolicy
+    epochs: 50

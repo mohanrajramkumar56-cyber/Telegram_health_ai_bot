@@ -1,0 +1,24 @@
+[
+  {
+    "age_months": 0,
+    "vaccines": [
+      {"name": "BCG", "dose": "single dose at birth"},
+      {"name": "OPV", "dose": "0 dose at birth"},
+      {"name": "Hepatitis B", "dose": "birth dose"}
+    ]
+  },
+  {
+    "age_months": 6,
+    "vaccines": [
+      {"name": "DPT", "dose": "1st dose"},
+      {"name": "OPV", "dose": "2nd dose"},
+      {"name": "Hepatitis B", "dose": "2nd dose"}
+    ]
+  },
+  {
+    "age_months": 9,
+    "vaccines": [
+      {"name": "MMR", "dose": "1st dose"}
+    ]
+  }
+]
