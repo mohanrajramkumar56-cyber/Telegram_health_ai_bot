@@ -608,5 +608,6 @@ MIT
 ## Summary
 
 HealthBot is a simple, affordable, and practical public-health chatbot for India. It combines messaging, rule-based AI, local knowledge files, and a lightweight web API to provide useful, accessible answers for common health questions. The project is designed to be easy to run locally, easy to extend, and low-cost to deploy.
-#   T e l e g r a m _ h e a l t h _ a i _ b o t  
+#   T e l e g r a m _ h e a l t h _ a i _ b o t 
+ 
  
